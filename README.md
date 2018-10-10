@@ -2,6 +2,7 @@
 
 Rotates passphrase encrypted SSH keys on remote host. 
 
+This script will auto-rollback and won't delete your old `authorized_keys` entry unless the new key works. 
 
 ## Requirements: 
 
